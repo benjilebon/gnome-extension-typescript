@@ -1,0 +1,14 @@
+{
+  "name": "gnome-extension-typescript",
+  "version": "0.1.0",
+  "description": "A Gnome Extension Skeleton based on TypeScript for enhanced development",
+  "main": "index.js",
+  "author": "Benjamin LEBON",
+  "license": "MIT",
+  "dependencies": {
+    "@ci-types/gjs": "^1.0.12",
+    "json": "^11.0.0",
+    "typescript": "^4.6.4"
+  },
+  "types": "./gjs.d.ts"
+}
