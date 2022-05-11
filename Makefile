@@ -1,8 +1,10 @@
 #!make
 
-.DEFAULT_GOAL := install build deploy
+.DEFAULT_GOAL := default
 
 EXT_UUID := $(shell cat src/metadata.json | node_modules/.bin/json uuid)
+
+default: install build deploy
 
 install:
 	@yarn install
